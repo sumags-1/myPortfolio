@@ -12,20 +12,48 @@
 
 <body>
     <div>
-        <section class = "home">
-        <h1>Hi, I'm Suma Gowrishankar</h1>
-        <p>In the past 20 plus years, I have been a Quality Assurance Engineer, a Product Owner, and in my current
-            avatar, am a Software Engineer.</p>
-        <p>I am also an avid hiker and backpacker - so if you love to hike or backpack, I bet we have a lot to talk
-            about !!</p>
+        <section id="home" class="current">
+            <h1>Hi, I'm Suma Gowrishankar</h1>
+            <p>In the past 20 plus years, I have been a Quality Assurance Engineer, a Product Owner, and in my current
+                avatar, am a Software Engineer.</p>
+            <p>I am also an avid hiker and backpacker - so if you love to hike or backpack, I bet we have a lot to talk
+                about !!</p>
+        </section>
+
+        <section id="about-me" class="hidden">
+            <h1>Hi, I'm Suma Gowrishankar</h1>
+            <p>More blah blah about me</p>
+        </section>
+
+        <section id="my-projects" class="hidden">
+            <h1>Hi, I'm Suma Gowrishankar</h1>
+            <p>A bunch of projects I dont have yet !</p>
+        </section>
+
+        <section id="contact-me" class="hidden">
+            <h1>Hi, I'm Suma Gowrishankar</h1>
+            <p>email linkedin etc</p>
         </section>
     </div>
+
+    <div id="modal">
+        <div id="modal-textbox">
+            <h1>Suma Gowrishankar's Resume</h1>
+            <p>this is the body of the resume</p>
+            <div id="modal-footer">
+                <button class="modal-buttons" id="close">Close</button>
+            </div>
+
+        </div>
+    </div>
+
     <nav>
         <ul>
-            <li>About Me</li>
-            <li>My Projects</li>
-            <li>My Resume</li>
-            <li>Contact Me</li>
+            <li class="navigation">Home</li>
+            <li class="navigation">About Me</li>
+            <li class="navigation">My Projects</li>
+            <li id="resume">My Resume</li>
+            <li class="navigation">Contact Me</li>
         </ul>
     </nav>
 </body>
