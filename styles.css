@@ -1,19 +1,19 @@
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100%;
         line-height: 2em;
-        
+
         background-image: linear-gradient(to right, #ddd6f3, #faaca8);
     }
 
-    .overallcontainer{
+    .overallcontainer {
         display: flex;
         /* align-items: center; */
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
         flex-direction: row;
-        flex-wrap: wrap; 
+        /* flex-wrap: wrap; */
     }
 
     #first {
@@ -21,34 +21,38 @@
     }
 
 
-    #second{
-        flex-grow: 2;
-        /* width: 70% */
+    #second {
+        flex-grow: 3;
+        width: 90%
     }
 
-    #third {
-        flex-grow: 1
-    }
 
-    h1{
+
+    h1 {
         line-height: 1.5em;
-        font-size: 1.5rem;
+        padding: 10px;
+        font-size: 1.75rem;
+        font-weight: 800;
         /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
         font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
     }
 
-    nav ul {
+    li {
         list-style-type: none;
     }
 
-    .projcontainer{
+    ul li {
+        list-style-type: circle;
+    }
+
+    .projcontainer {
         display: flex;
         align-items: center;
         justify-content: left;
         align-content: center;
     }
 
-    .projdiv{
+    .projdiv {
         display: inline-block;
         text-align: center;
     }
@@ -58,18 +62,21 @@
     }
 
     img {
-        width: 80px; 
-        height: 80px; 
+        width: 80px;
+        height: 80px;
     }
 
     nav {
-        position: absolute;
+        position: fixed;
         bottom: 0;
-        right: 0;
-        padding: 50px;
+        left: 0;
+        padding: 15px;
         line-height: 2em;
-        font-size: 1em;
+        font-size: 1.1em;
         font-weight: bold;
+        text-align: left;
+        /* font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif; */
+
     }
 
     .current {
@@ -117,6 +124,143 @@
 
     .modal-buttons {
         padding: 14px 18px;
+        background-color: #677996;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        color: white;
+        font-family: 'Arial';
+        cursor: pointer;
+    }
+
+
+}
+
+@media (max-width: 599px) {
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        line-height: 2em;
+
+        background-image: linear-gradient(to right, #ddd6f3, #faaca8);
+    }
+
+    .overallcontainer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    #first {
+        flex-grow: 1;
+    }
+
+
+    #second {
+        flex-grow: 3;
+        width: 90%
+    }
+
+
+
+    h1 {
+        line-height: 1.5em;
+        padding: 10px;
+        font-size: 1.75rem;
+        font-weight: 800;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    ul li {
+        list-style-type: circle;
+    }
+
+    .projcontainer {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        align-content: center;
+    }
+
+    .projdiv {
+        display: inline-block;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 15px;
+        line-height: 2em;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: left;
+        /* font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif; */
+
+    }
+
+    .current {
+        margin-right: 2rem;
+        padding: 1rem;
+        height: 80vh;
+        width: 70vw;
+        border-radius: 1rem;
+        overflow-y: scroll;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+    #modal {
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        overflow: auto;
+        display: none;
+    }
+
+    #modal-textbox {
+        background-color: white;
+        height: 300px;
+        width: 300px;
+        border-radius: 2px;
+        margin: 150px auto;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        padding: 2%;
+        line-height: 120%;
+        font-family: 'Arial';
+
+    }
+
+    #modal-footer {
+        text-align: right;
+    }
+
+    .modal-buttons {
+        padding: 10px 10px;
         background-color: #677996;
         border: none;
         outline: none;
