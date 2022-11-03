@@ -2,16 +2,42 @@
 
     body {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
+        font-size: 100%;
         line-height: 2em;
-        display: flex;
-        /* align-items: center; */
-        justify-content: space-evenly; 
-    
+        
         background-image: linear-gradient(to right, #ddd6f3, #faaca8);
     }
 
-    ul {
+    .overallcontainer{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly; 
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+
+    #first {
+        flex-grow: 1;
+    }
+
+
+    #second{
+        flex-grow: 2;
+        /* width: 70% */
+    }
+
+    #third {
+        flex-grow: 1
+    }
+
+    h1{
+        line-height: 1.5em;
+        font-size: 1.5rem;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
+    }
+
+    nav ul {
         list-style-type: none;
     }
 
@@ -37,7 +63,7 @@
     }
 
     nav {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         right: 0;
         padding: 50px;

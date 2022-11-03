@@ -1,6 +1,6 @@
 //Opening Resume in modal
 
-const resumeLk = document.getElementById('resume');
+const contactLk = document.getElementById('contact');
 const modal = document.getElementById('modal')
 const closeBtn = document.getElementById('close')
 
@@ -13,7 +13,7 @@ const closeModal = () => {
     modal.style.display = 'none';
 }
 
-resumeLk.addEventListener('click', openModal);
+contactLk.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 
 
