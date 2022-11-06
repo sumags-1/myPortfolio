@@ -2,7 +2,13 @@
 My Portfolio
 
 Overview of the site:
+Desktop View:
 <img width="1428" alt="overview1" src="https://user-images.githubusercontent.com/115961145/200197597-19b58295-85c7-47c2-896b-e8ff8237dbcb.png">
+
+Mobile view:
+![IMG_EC17BF6CCB91-1](https://user-images.githubusercontent.com/115961145/200198399-1a843084-d3e0-43a7-b1cc-90c74a764fd5.jpeg)
+
+
 
 
 List of technologies used:
@@ -26,12 +32,12 @@ User Stories:
 
 Original wireframe (which later changed due to issues with sticky nav):
 
-
+<img width="917" alt="Screen Shot 2022-11-06 at 2 11 09 PM" src="https://user-images.githubusercontent.com/115961145/200198312-5e509986-849c-4419-9c94-efb4edcf8160.png">
 
 
 
 MVP site (before further CSS changes):
-
+![IMG_0183](https://user-images.githubusercontent.com/115961145/200198234-73a93cc7-584b-4dbd-b2d8-8e443472e5aa.PNG)
 
 
 
