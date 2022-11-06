@@ -51,7 +51,7 @@
     .projdiv {
         display: inline-block;
         text-align: center;
-        padding: 15px;
+        padding: 5px;
         margin: 5px;
     }
 
@@ -99,18 +99,24 @@
 
     .pics {
         width: 200px;
-        height: 200px;
+        height: 150px;
         box-shadow: 10px 10px 5px #ad5c45;
         border-radius: 8px;
     }
 
     .pics2 {
         width: 200px;
-        height: 300px;
+        height: 280px;
         box-shadow: 10px 10px 5px #ad5c45;
         border-radius: 8px;
     }
 
+    .pics3 {
+        width: 200px;
+        height: 200px;
+        box-shadow: 10px 10px 5px #ad5c45;
+        border-radius: 8px;
+    }
 
     nav {
         display: flex;
@@ -225,6 +231,12 @@
         border-radius: 8px;
     }
 
+    .pics3 {
+        width: 100px;
+        height: 100px;
+        box-shadow: 10px 10px 5px #ad5c45;
+        border-radius: 8px;
+    }
 
     h1 {
         line-height: 1.5em;
@@ -266,7 +278,7 @@
     .projdiv {
         display: inline-block;
         text-align: center;
-        padding: 15px;
+        padding: 5px;
         margin: 5px;
 
     }
