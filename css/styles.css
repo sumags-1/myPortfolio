@@ -8,7 +8,6 @@
         background: url(../images/pentagon.jpeg) repeat;
         background-size: cover;
         background-position: center;
-        /* backdrop-filter: blur(5px); */
     }
 
     .overallcontainer {
@@ -19,24 +18,14 @@
         /* flex-wrap: wrap; */
     }
 
-    /* #first {
-        flex-grow: 1;
-    }
-
-    #second {
-        flex-grow: 3;
-        width: auto; 
-    } */
-
 
     h1 {
         color: white;
         text-align: center;
         line-height: 1.5em;
         padding: 10px;
-        font-size: 1.75rem;
+        font-size: 2em;
         font-weight: 800;
-        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
         font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
     }
 
@@ -48,10 +37,15 @@
         list-style-type: circle;
     }
 
+    h2 {
+        text-shadow: 2px 2px 5px gray;
+
+    }
+
     .projcontainer {
         display: flex;
         align-items: center;
-        justify-content: left;
+        justify-content: center;
         align-content: center;
     }
 
@@ -60,8 +54,31 @@
         text-align: center;
     }
 
+    .projcontainer2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+
+    }
+
+    .projdiv2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .snippet {
+        width: 150px;
+        height: 100px;
+        box-shadow: 10px 10px 5px gray;
+
+    }
+
+
     a {
         text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
     }
 
     div #second {
@@ -74,38 +91,30 @@
     }
 
     img {
-        width: 80px;
+        width: 90px;
         height: 80px;
     }
 
     nav {
-        /* position: fixed; */
-        /* bottom: 0; */
-        /* left: 0; */
-        /* border: solid 1px orange;  */
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding: 15px;
-        font-size: 1.35em;
+        font-size: 1.5em;
         font-weight: bold;
         font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
-
+        cursor: pointer;
     }
 
+    /* Transition */
 
-    /* CREATE "COLOR_EXPAND" ELEMENT TRANSITION
-    ----------------------------------------------------- */
     .colorexpand {
         color: white;
-        /* font-size: 30px; */
         transition: color 1s, border-color 1s, font-size 0.25s;
     }
 
     .colorexpand:hover {
         color: #e45908;
-        border-color: #b71a62;
-        /* font-size: 40px; */
     }
 
     .lkclr {
@@ -183,21 +192,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
-        /* flex-wrap: wrap; */
     }
-
-    /* #first {
-        flex-grow: 1;
-    }
-
-
-    #second {
-        /* flex-grow: 3; */
-    /* margin: 0;
-        width: 80%;
-        
-    } */
-
 
 
     h1 {
@@ -206,7 +201,6 @@
         font-size: 1.75rem;
         font-weight: 800;
         width: 70%;
-        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
         font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
     }
 
@@ -222,13 +216,19 @@
     }
 
     #contact {
-        color: white;
+        color: black;
+    }
+
+
+    h2 {
+        text-shadow: 2px 2px 5px gray;
+
     }
 
     .projcontainer {
         display: flex;
         align-items: center;
-        justify-content: left;
+        justify-content: center;
         align-content: center;
     }
 
@@ -237,12 +237,36 @@
         text-align: center;
     }
 
+    .projcontainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+
+    }
+
+    .projdiv2 {
+        display: block;
+        text-align: center;
+    }
+
+    .snippet {
+        width: 70px;
+        height: 70px;
+        box-shadow: 10px 10px 5px gray;
+
+    }
+
+
     a {
         text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
     }
 
     img {
-        width: 20px;
+        width: 40px;
         height: 20px;
     }
 
@@ -256,7 +280,7 @@
         font-weight: bold;
         text-align: left;
         font-family: 'Dancing Script', cursive, Geneva, Verdana, sans-serif;
-
+        cursor: pointer;
     }
 
 
