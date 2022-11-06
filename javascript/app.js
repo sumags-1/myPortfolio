@@ -1,4 +1,4 @@
-//Opening Resume in modal
+//Opening Contact link in modal
 
 const contactLk = document.getElementById('contact');
 const modal = document.getElementById('modal')
@@ -17,7 +17,7 @@ contactLk.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 
 
-//Opening each section instead of having seperate pages
+//Opening each section as a page instead of having seperate pages
 //selecting the pages and links 
 const pages = document.querySelectorAll("section");
 const links = document.getElementsByClassName("navigation");
@@ -26,7 +26,7 @@ const links = document.getElementsByClassName("navigation");
 function onClickLink(event) {
     const pageId = event.target.innerText.toLowerCase().replaceAll(' ', '-');
 
-//check if the selected link text is equal to the ID of the section selected
+    //check if the selected link text is equal to the ID of the section selected
     for (let i = 0; i < pages.length; i++) {
         if (pageId === pages[i].id) {
             pages[i].className = "current"
